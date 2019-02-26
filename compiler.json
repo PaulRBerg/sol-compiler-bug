@@ -1,14 +1,9 @@
 {
   "artifactsDir": "./artifacts",
   "contractsDir": "./contracts",
-  "compilerSettings": {
-      "optimizer": { 
-        "enabled": true,
-        "runs": 200 
-      }
-  },
   "contracts": [
-      "contracts/Numbers.sol"
+      "contracts/A.sol",
+      "contracts/B.sol"
   ],
   "solcVersion": "0.5.4"
 }
